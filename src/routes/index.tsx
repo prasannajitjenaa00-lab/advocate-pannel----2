@@ -24,9 +24,9 @@ import { practiceAreas, testimonials } from "@/lib/legal-data";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Adv. Akrity Aishwarya — Experienced High Court Advocate" },
+      { title: "Adv. Atul Kumar Jha — Experienced High Court Advocate" },
       { name: "description", content: "Trusted High Court Advocate offering civil, criminal, writ, bail, family, property and constitutional legal services. Book a confidential consultation." },
-      { property: "og:title", content: "Adv. Akrity Aishwarya — Experienced High Court Advocate" },
+      { property: "og:title", content: "Adv. Atul Kumar Jha — Experienced High Court Advocate" },
       { property: "og:description", content: "Professional legal representation with integrity, dedication and years of courtroom experience." },
       { property: "og:url", content: "/" },
     ],

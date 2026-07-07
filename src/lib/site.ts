@@ -1,5 +1,5 @@
 export const site = {
-  name: "Adv. Akrity Aishwarya",
+  name: "Adv. Atul Kumar Jha",
   role: "High Court Advocate",
   phone: "+918468859644",
   phoneDisplay: "084688 59644",
