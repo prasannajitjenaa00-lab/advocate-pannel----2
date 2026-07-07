@@ -98,6 +98,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     ],
     scripts: [
       {
+        src: "https://www.googletagmanager.com/gtag/js?id=G-LFRSN7LNV0",
+        async: true,
+      },
+      {
+        children: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-LFRSN7LNV0');
+        `,
+      },
+      {
         src: "https://cdn.jsdelivr.net/npm/whatsapp@0.0.5-Alpha/build/api/base.min.js",
         async: true,
       },
